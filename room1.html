@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="room1.css" rel="stylesheet"></link>
+    <script>
+        function add(){
+            var price,days,total;
+            price=1000;
+            days=parseInt(document.getElementById("days").value);
+            sum=1000*days;
+            document.getElementById("tot").value=sum;
+        }
+    </script>
+</head>
+<body>
+    <div class="temp">
+    <h1>Room Booking</h1>
+    <img class="im1" src="C:\Users\tamiz\Downloads\olexandr-ignatov-w72a24brINI-unsplash.jpg" width="50%"
+    height="50%">
+    </img>
+    <div class="r1">
+        <div>Type : Luxury Room</div>
+       <div>Windows : 3</div>
+       <div><label for="days">Days :</label><input type="number" id="days">  </input></div>
+       <div><input type="submit" value="submit" onclick="add()"></div>
+       <div><label for="tot">Total Amount :</label><input id="tot"></input></div>
+    </div>
+    </div>
+</body>
+</html>

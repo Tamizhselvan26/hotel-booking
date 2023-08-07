@@ -1,0 +1,22 @@
+.form{
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(310deg ,rgb(51, 216, 161) ,rgb(112, 188, 207) 80%);
+    font-size: 30px;
+    padding-bottom: 200px;
+    color: white;
+}
+input{
+ font-size: 20px;
+ border-radius: 7px;
+ color: rgb(48, 17, 17);
+padding: 10px;
+
+
+}
+ .imk{
+border-radius: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}

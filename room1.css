@@ -1,0 +1,26 @@
+.im1{
+    display: block;
+    margin: auto;
+    border: auto;
+  
+    border-radius: 10px;
+
+}
+.r1 div{
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: linear-gradient(310deg ,rgb(104, 122, 116) ,rgb(176, 197, 202) 80%);
+}
+input{
+    font-size: 20px;
+    border-radius: 4px;
+}
+#tot{
+    background-color: beige;
+}
